@@ -4,6 +4,7 @@ body {
   color: #444;
   font-size: 1.2em;
   font-family: "helvetica neue",  sans-serif;
+  background: #fff url("http://img10.deviantart.net/2099/i/2009/255/7/6/gems_2_by_melodycphotography.jpg") repeat-y fixed center;
   margin: 0;
 }
 
@@ -38,14 +39,15 @@ pre, code {
 }
 
 #content {
-  background: #eee;
+  background: #fff;
   border: 1px solid #ccc;
   width: 70%;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 0.5em 0 1em 0;
   text-align: center;
-  box-shadow: 10px 10px 8px #888888;
+  min-height: 780px;
 }
 
 #instruction {
@@ -59,7 +61,7 @@ pre, code {
 
 #content h1 {
   margin: 0;
-  color: #a00;
+  color: #8ab831;
   font-weight: 600;
   text-shadow: #aaa 1px 1px 1px;
 }
