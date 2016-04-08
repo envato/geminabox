@@ -1,11 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Droid+Sans+Mono";
 
-
 body {
-  background: #ddd;
   color: #444;
   font-size: 1.2em;
   font-family: "helvetica neue",  sans-serif;
+  background: #fff url("http://img10.deviantart.net/2099/i/2009/255/7/6/gems_2_by_melodycphotography.jpg") repeat-y fixed center;
   margin: 0;
 }
 
@@ -13,7 +12,6 @@ small {
   color: #999;
   font-size: 60%;
 }
-
 
 a {
   text-decoration: none;
@@ -34,24 +32,36 @@ form {
   margin: 0;
 }
 
-code {
-  font-size: 0.7em;
+pre, code {
+  text-align: left;
+  font-size: 0.8em;
   font-family: "Droid Sans Mono", monospace;
 }
 
 #content {
   background: #fff;
   border: 1px solid #ccc;
-  width: 600px;
+  width: 70%;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 0.5em 0 1em 0;
   text-align: center;
+  min-height: 780px;
+}
+
+#instruction {
+  margin: auto;
+  width: 60%;
+  border: 1px solid #333300;
+  background: #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #content h1 {
   margin: 0;
-  color: #a00;
+  color: #8ab831;
   font-weight: 600;
   text-shadow: #aaa 1px 1px 1px;
 }
